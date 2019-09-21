@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <script type="text/javascript">
+			function includeGet() {
+				var includeEntry = document.getElementById("include").value;
+				var para = document.createElement("p");
+				var node = document.createTextNode(includeEntry);
+				var element = document.getElementById("div1");
+				para.appendChild(node);
+				element.appendChild(para);		
+				}-->
+		</script>
+        <style>
+
+        </style>
+    </head>
+    <body>
+	    
+	    
+		<center>
+			<form autocomplete="off">
+				<div class="container">
+					<h2 id="dfToggler">&nbsp;Phrase search settings</h2>
+					<div>
+						<input type="text" class="entry" id="includeExcludeEntry"  placeholder="Word or phrase" size="18">
+						<img src="images/plus_grey.png" class="add" id="includeExcludeButton"><br>
+						<div>
+							<input type="radio" id="phraseIncludeRad" value="phraseInclude" checked="checked">Include
+							<input type="radio" id="phraseExcludeRad" value="phraseExclude">Exclude<br>
+						</div>
+						<div id="keywordDisplay"></div>
+						<br>
+						<!--Exclude (word or phrase):<br>
+						<input type="text" class="entry" id="excludeEntry" size="12">
+						<img src="images/plus_grey.png" class="picbutton" id="excludeButton">-->
+					</div>
+					
+					<h2 id="dfToggler">Website Search Setting</h2>
+					<div>
+						<input type="radio" id="siteIncludeRad" value="siteInclude" checked="checked">
+						www.
+						<input type="text" class="entry" id="websiteEntry" placeholder="Website" size="14">
+						<img src="images/plus_grey.png" class="add" id="websiteButton"><br>
+					</div>
+					<div>
+						<input type="radio" id="domainIncludeRad" value="domainInclude">
+						.
+						<input type="text" class="entry" id="domainEntry" placeholder="Domain (.'org', etc.)" size="16">
+						<img src="images/plus_grey.png" class="add" id="domainButton"><br>
+					</div>
+					<h2 id="searchDivider">Your Search</h2>
+					
+					<div id="termContainer">
+						<div><li class="paramButton" id="include" title="123456">kontakt crack</li></div>
+						<div><li class="paramButton" title="123456">.org</li></div>
+						<div><li class="paramButton" title="123456">-malware</li></div>
+						
+					</div>
+					<br>
+					<br>
+					
+					
+					
+					<!--<input type="text" class="entry" id="searchDisplay" placeholder="Your Search" size="14">
+					
+					<img src="images/logo.png" class="search" id="searchButton"><br>
+					-->
+					
+					
+				</div>
+				
+			</form> 
+		
+		</center>
+		<div id="appinfo">
+			<span id="appname">SwiftSearch</span>&nbsp;<span id="version">0.0.1</span>
+		</div>
+		
+		<script type="text/javascript" src="popup.js"></script>
+    </body>
+</html>

@@ -1,0 +1,178 @@
+/*p#idName
+
+.className
+
+img.className*/
+
+
+#keywordDisplay {
+	float: left;
+	padding-right: 20px;
+}
+
+
+.entry {
+	border-radius: 10px;
+	border: .5px solid #73AD21;
+	line-height: 30px;
+	padding-left: 5px;
+	padding-right: 29px;
+	margin-bottom: 10px;
+}
+
+
+
+#SearchDisplay {
+	padding-left: -34px;
+	
+}
+
+.paramButton {
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+    background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    padding: 0 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	height: 40px;
+	line-height: 40px;
+}
+
+#termContainer {
+	text-align: center;
+	width: 249.6px;
+	margin: auto;
+}
+
+.add {
+	/*position: relative;
+	left: 9px;
+	top: 5.3px;*/
+	width:20px;
+	height: 20px; 
+	margin-bottom: -4.5px;
+	margin-left: -29px;
+}
+
+
+li p {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+
+
+
+
+
+.select2-selection__rendered {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0 5px;
+    width: 100%;
+}
+
+.entry:focus {
+    outline-width: 0;
+}
+
+.includeDiv {
+	color:Green;
+}
+
+.includeDiv:hover {
+	color:Tomato;
+}
+
+.excludeDiv {
+	color:Green;
+}
+
+.excludeDiv:hover {
+	color:Tomato;
+}
+
+
+.search {
+	/*position: relative;
+	left: 9px;
+	top: 5.3px;*/
+	width:20px;
+	height: 20px; 
+	margin-bottom: -4.5px;
+	margin-left: -29px;
+}
+
+
+
+.button {
+	background:url(./images/plus.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:10px;
+    height:10px;
+	
+}
+
+.myButton:active  /* use Dot here */
+{   
+    background:url(./images/plus.png) no-repeat;
+}
+
+h2 { 
+	width:100%; 
+	text-align:center;
+	border-bottom: 0.5px solid #000; 
+	line-height:1px; 
+	margin:10px 0 20px;
+	
+	
+    background-color: #eee;
+    border: 0;
+    color: #666;
+    cursor: pointer;
+    font-size: 120%;
+    font-weight: normal;
+    padding: 0.2em;
+    text-align: center;
+	
+}
+
+.searchDivider {
+	line-height: 0.2px
+
+}
+
+h2 span { 
+	background:#fff; 
+	padding:0 10px; 
+}
+
+#appinfo {
+    align-items: flex-end;
+    background-color: #444;
+    border: 0;
+    color: #bbb;
+    display: flex;
+    font-size: smaller;
+    justify-content: center;
+    margin: 0;
+    padding: 1px 0;
+    width: 250px;
+}
+
+
+
+
+
